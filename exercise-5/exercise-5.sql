@@ -13,3 +13,5 @@ INNER JOIN 'Order Details' c ON b.OrderID = c.OrderID
 GROUP BY a.CompanyName
 ORDER BY Sum(c.UnitPrice*c.Quantity) DESC
 LIMIT 1
+
+-- End.
