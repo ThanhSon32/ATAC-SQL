@@ -8,3 +8,5 @@ INNER JOIN Suppliers c on a.SupplierID = c.SupplierID
 SELECT *
 FROM Customers
 WHERE CompanyName LIKE '%Market%';
+
+-- End.
