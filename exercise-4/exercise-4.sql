@@ -13,3 +13,5 @@ VALUES (
     100,
     (SELECT SupplierID FROM Suppliers LIMIT 1)  -- Choosing any supplier by using LIMIT 1
 );
+
+-- End.
